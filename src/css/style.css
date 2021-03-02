@@ -205,23 +205,23 @@ button {
 	}
 
 	p {
-		font-size: 16px;
+		font-size: 14px;
 	}
 
 	h1 {
-		font-size: 26px;
+		font-size: 24px;
 	}
 
 	.game-screen {
 		width: 100vw;
-		height: 82vh;
+		height: 75vh;
 	}
 
 	.result,
 	.start-options,
 	.alert,
 	.orient {
-		margin: 10px;
+		margin: 8px;
 		padding: 5px;
 	}
 
