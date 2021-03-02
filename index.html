@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vacine o bozo</title>
+	<link rel="stylesheet" href="./assets/css/style.min.css">
+</head>
+
+<body>
+	<main>
+		<div class="container">
+			<div class="orient">
+				<h1>Vire o celular na horizontal para jogar.</h1>
+				<img src="./assets/media/turnphone.png">
+			</div>
+			<div class="game-screen">
+				<div class="start-options">
+					<h1>VACINE OS NEGACIONISTAS</h1>
+					<ul>
+						<li>
+							<p>Escolha um dos níveis de dificuldade e clique em "Iniciar";</p>
+						</li>
+						<li>
+							<p>Tente aplicar o máximo de doses que conseguir;</p>
+						</li>
+						<li>
+							<p>Se estiver conseguindo, eles tentarão distraí-lo com cloroquina;</p>
+						</li>
+					</ul>
+					<p>Selecione o nível:</p>
+					<form>
+						<label for="easy">Fácil</label>
+						<input type="radio" class="level" name="level" value="Fácil"><br>
+						<label for="normal">Normal</label>
+						<input type="radio" class="level" name="level" value="Normal"><br>
+						<label for="hard">Difícil</label>
+						<input type="radio" class="level" name="level" value="Difícil">
+					</form>
+					<h1 id="choose-level"></h1>
+				</div><!--start-options-->
+				<div class="result">
+					<h1>FIM</h1>
+					<h2>Resultado: <span id="points"></span>vacinas aplicadas</h2>
+					<h2>Nível: <span id="end-level"></span></h2>
+				</div>
+				<div class="alert">
+					<h1>Deseja iniciar novo jogo?</h1>
+					<button id="yes">SIM</button>
+					<button id="no">NÃO</button>
+				</div>
+				
+			</div><!--game-screen-->
+			<div class="panel">
+				<button id="btn-ini">Iniciar</button>
+				<div class="points">
+					<p>Aplicadas: </p><span id="counter">0
+						<!--JS-->
+					</span>
+					<p>Tempo: </p><span id="timer">
+						<!--JS-->
+					</span>
+				</div>
+			</div>
+
+		</div>
+	</main>
+
+	<script src="./assets/js/main.min.js"></script>
+</body>
+
+</html>
