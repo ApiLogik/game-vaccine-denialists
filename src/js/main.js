@@ -77,7 +77,7 @@ const onLoadGlobal = () => {
 
 	const createCloroqText = () => {
 		let cloroqTxt = gameScreen.appendChild(document.createElement('h1'));
-		cloroqTxt.style.color = 'rgb(242, 255, 58)';
+		cloroqTxt.style.color = 'rgb(211, 53, 53)';
 		cloroqTxt.style.fontSize = '60px';
 		cloroqTxt.innerHTML = 'CLOROQUINA!';
 
