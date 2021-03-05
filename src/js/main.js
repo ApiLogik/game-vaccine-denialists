@@ -165,7 +165,7 @@ const onLoadGlobal = () => {
 		let speed;
 		gameOn = true;
 
-		if (level === 'Pazuello') speed = 1300;
+		if (level === 'Fácil') speed = 1300;
 		if (level === 'Normal') speed = 1000;
 		if (level === 'Difícil') speed = 800;
 
