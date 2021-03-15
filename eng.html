@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vaccinate The Denialists</title>
+	<link rel="stylesheet" href="./assets/css/style.min.css">
+</head>
+
+<body>
+	<main>
+		<div class="container" draggable="false">
+			<div class="orient">
+				<h1>Rotate the screen to play</h1>
+				<img src="./assets/media/turnphone.png">
+			</div>
+			<div class="game-screen" draggable="false">
+				<div class="start-options">
+					<h1>VACCINATE THE DENIALISTS</h1>
+					<ul>
+						<li>
+							<p>Pick a level and click 'Start';</p>
+						</li>
+						<li>
+							<p>Try to apply as many doses as you can;</p>
+						</li>
+						<li>
+							<p>If you are succeeding, they will try to distract you with chloroquine;</p>
+						</li>
+					</ul>
+					<p>Select the level:</p>
+					<form>
+						<label for="easy">Easy</label>
+						<input type="radio" class="level" name="level" value="easy"><br>
+						<label for="normal">Normal</label>
+						<input type="radio" class="level" name="level" value="normal"><br>
+						<label for="hard">Hard</label>
+						<input type="radio" class="level" name="level" value="hard">
+					</form>
+					<h1 id="choose-level"></h1>
+				</div><!--start-options-->
+				<div class="result">
+					<h1>END</h1>
+					<h2>Result: <span id="points"></span> doses applied.</h2>
+					<h2>Level: <span id="end-level"></span></h2>
+				</div>
+				<div class="alert">
+					<h1>Want to start a new game?</h1>
+					<button id="yes">YES</button>
+					<button id="no">NO</button>
+				</div>
+				
+			</div><!--game-screen-->
+			<div class="panel">
+				<button id="btn-ini">Start</button>
+				<div class="points">
+					<p>Apllied: </p><span id="counter">0
+						<!--JS-->
+					</span>
+					<p>Time: </p><span id="timer">
+						<!--JS-->
+					</span>
+				</div>
+			</div>
+
+		</div>
+	</main>
+
+	<script src="./assets/js/main.min.js"></script>
+</body>
+
+</html>
